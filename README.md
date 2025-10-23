@@ -29,17 +29,28 @@ A user-friendly web application built with **Streamlit** and **scikit-learn** to
 ```bash
 git clone https://github.com/<your-username>/HeartDisease_Prediction.git
 cd HeartDisea
+```
 ### 2. Create and Activate Virtual Environment
+```bash
 python3 -m venv .venv
 source .venv/bin/activate  # On macOS/Linux
 .venv\Scripts\activate     # On Windowsse_Prediction
+```
 
 ### 3. Install Dependencies
-pip install -r requirements.txt
+```bash
+pip install -r requirements.txt]
+```
 ### 4. Run the Application
+```
 streamlit run app.py
 Visit http://localhost:8501 in your browser to interact with the app.
-📁 Project Structure
+```
+
+
+## Project Structure
+
+```text
 HeartDisease_Prediction/
 │
 ├── app.py                # Main Streamlit application
@@ -47,9 +58,20 @@ HeartDisease_Prediction/
 ├── requirements.txt      # Python dependencies
 ├── .gitignore            # Git ignore file
 └── README.md             # Project documentation
-🧪 Model Details
-The application uses a K-Nearest Neighbors (KNN) classifier trained on a dataset containing various health parameters. The model predicts the likelihood of heart disease based on the input features.
-📄 License
+```
+## Model Details
+
+The application uses a K-Nearest Neighbors (KNN) classifier trained on a dataset containing various health parameters.  
+The model predicts the likelihood of heart disease based on the input features.
+
+## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
-📬 Contact
+
+## Contact
+
 For any inquiries or feedback, please reach out to ginshank@8076gmail.com.
+
+
+
+
